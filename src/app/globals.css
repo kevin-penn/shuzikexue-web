@@ -23,3 +23,7 @@ body {
 .website-link {
   @apply text-blue-500 mr-3;
 }
+
+.website-link:hover {
+  @apply underline;
+}
