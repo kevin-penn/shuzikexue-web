@@ -10,8 +10,8 @@ export default function Home() {
         <header className="flex item-center my-2"> 
           <Image src={logoWeb} alt="数字科学网" className="hidden h-12 w-auto sm:block" />
           <Image src={logoCircle} alt="数字科学网" className="h-12 w-auto sm:hidden" />
-          <nav>
-            <ul className="flex items-center justify-center gap-x-4 mx-auto px-3 py-3 max-w-7xl ml-4 font-bold">
+          <nav className="overflow-x-auto pb-2">
+            <ul className="flex space-x-4 min-w-max items-center justify-center mx-auto px-3 py-3 max-w-7xl ml-4 font-bold">
               <li>
                 <a className="nav-link">导航</a>
               </li>
