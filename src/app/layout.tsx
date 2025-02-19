@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "数字科学网",
+  title: "数字科学网 - 创新源于分享",
   description: "创新源于分享",
 };
 
