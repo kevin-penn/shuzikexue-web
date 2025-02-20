@@ -8,15 +8,15 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center">
       <div className="flex w-full max-w-[1110px] px-4 flex-col justify-center content-center">
         <header className="flex item-center my-2"> 
-          <Image src={logoWeb} alt="数字科学网" className="hidden h-12 w-auto sm:block" />
-          <Image src={logoCircle} alt="数字科学网" className="h-12 w-auto sm:hidden" />
+          <Image src={logoWeb} priority placeholder="blur" quality={10} alt="数字科学网" className="hidden h-10 w-auto sm:block rounded-lg" />
+          <Image src={logoCircle} priority placeholder="blur" quality={10} alt="数字科学网" className="h-10 w-auto sm:hidden rounded-lg" />
           <nav className="overflow-x-auto pb-2">
-            <ul className="flex space-x-4 min-w-max items-center justify-center mx-auto px-3 py-3 max-w-7xl ml-4 font-bold">
+            <ul className="flex space-x-4 min-w-max items-center justify-center mx-auto px-3 py-2 max-w-7xl ml-4 font-bold">
               <li>
                 <a className="nav-link">导航</a>
               </li>
               <li>
-                <a className="nav-link">百科</a>
+                <a className="nav-link">知识百科</a>
               </li>
               <li>
                 <a className="nav-link">数据雷达</a>
