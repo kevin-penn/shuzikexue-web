@@ -36,6 +36,7 @@ export default function Home() {
               <a href="https://deepnote.com/" target="_blank" className="website-link">Deepnote</a>
               <a href="https://paperswithcode.com/" target="_blank" className="website-link">Papers with Code</a>
               <a href="https://www.shodan.io/" target="_blank" className="website-link">Shodan</a>
+              <a href="https://www.cpubenchmark.net/" target="_blank" className="website-link">CPU Benchmark</a>
             </div>
           </div>
           <div className="my-2 p-2 border border-solid rounded-lg border-orange-300">
