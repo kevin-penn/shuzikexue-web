@@ -40,6 +40,16 @@ export default function Home() {
             </div>
           </div>
           <div className="my-2 p-2 border border-solid rounded-lg border-orange-300">
+            <div className="font-bold my-2">机器学习&AI</div>
+            <div>
+              <a href="https://chat.baidu.com/search" target="_blank" className="website-link">百度AI搜索</a>
+              <a href="https://yuanbao.tencent.com/" target="_blank" className="website-link">腾讯元宝</a>
+              <a href="https://www.doubao.com/" target="_blank" className="website-link">豆包</a>
+              <a href="https://kimi.moonshot.cn/" target="_blank" className="website-link">Kimi</a>
+              <a href="https://chatgpt.com/" target="_blank" className="website-link">Chat GPT</a>
+            </div>
+          </div>
+          <div className="my-2 p-2 border border-solid rounded-lg border-orange-300">
             <div className="font-bold my-2">网盘搜索</div>
             <div>
               <a href="https://www.xuebapan.com/" target="_blank" className="website-link">学霸盘</a>
