@@ -25,18 +25,18 @@ const NavBar = () => {
           priority 
           quality={80}
           alt="数字科学网" 
-          className="hidden h-8 w-auto sm:block rounded-lg transition-opacity duration-300 mr-6"
+          className="hidden h-8 w-auto sm:block rounded-lg transition-opacity duration-300 mr-8"
         />
         <Image 
           src={logoCircle} 
           priority 
           quality={80}
           alt="数字科学网" 
-          className="h-8 w-auto sm:hidden rounded-lg mr-6"
+          className="h-8 w-auto sm:hidden rounded-lg mr-8"
         />
       </div>
 
-      <ul className="flex space-x-4 min-w-max items-center justify-center">
+      <ul className="flex space-x-7 min-w-max items-center justify-center">
         {navItems.map((item) => (
           <li key={item.href}>
             <Link
