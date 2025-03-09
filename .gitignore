@@ -1,2 +1,7 @@
 node_modules/
 .next/
+.idea/
+.DS_Store
+.vscode/
+out/
+build/

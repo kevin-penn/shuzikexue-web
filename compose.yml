@@ -3,6 +3,7 @@ services:
     image: kevinpennfun/shuzikexue-web:latest
     ports:
       - "3000:3000"
+    restart: always
     deploy:
       replicas: 1
       update_config:

@@ -29,15 +29,15 @@ jobs:
           context: .
           push: true
           tags: kevinpennfun/shuzikexue-web:latest
-      -
-        name: Deploy to server
-        uses: appleboy/ssh-action@v1.2.1
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          script: |
-            echo "Deploying to server..."
-            cd /opt/shuzikexue-web/
-            sudo docker compose pull shuzikexue-web
-            sudo docker compose up -d
+      # -
+      #   name: Deploy to server
+      #   uses: appleboy/ssh-action@v1.2.1
+      #   with:
+      #     host: ${{ secrets.SERVER_HOST }}
+      #     username: ${{ secrets.SERVER_USERNAME }}
+      #     key: ${{ secrets.SERVER_SSH_KEY }}
+      #     script: |
+      #       echo "Deploying to server..."
+      #       cd /opt/shuzikexue-web/
+      #       sudo docker compose pull shuzikexue-web
+      #       sudo docker compose up -d
